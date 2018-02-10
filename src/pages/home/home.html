@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title align="center">
+    Mobile Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <form #phoneForm="ngForm" (ngSubmit)="sendCode(phoneForm)">
+    <ion-item>
+      <ion-label floating>Phone Number</ion-label>
+      <ion-input type="tel" name="phoneNumber" [(ngModel)]="phoneNumber"></ion-input>
+    </ion-item>
+    <button ion-button full type="submit">Send Code</button>
+  </form>
+  <div id="re-container"></div>
+</ion-content>
