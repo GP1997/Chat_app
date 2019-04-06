@@ -17,12 +17,7 @@ import { Camera } from '@ionic-native/camera';
 import firebase from 'firebase';
 
 const firebaseConfig:FirebaseAppConfig={
-  apiKey: "AIzaSyBfQRgL8SVxS6UAW94MaHPemnRU4A3euNE",
-  authDomain: "chat-e06c8.firebaseapp.com",
-  databaseURL: "https://chat-e06c8.firebaseio.com",
-  projectId: "chat-e06c8",
-  storageBucket: "chat-e06c8.appspot.com",
-  messagingSenderId: "311624002904"
+ 
 }
 @NgModule({
   declarations: [
